@@ -14,7 +14,7 @@ Calibrates the MPU-6500 accelerometer by having the user rotate the board in all
 ### imu_cal
 This demonstrates calibrated data from the MPU-6500. The gyro is calibrated during startup and the accel calibration factors from the *accel_cal* code are loaded from EEPROM. Requires the [BFS Invensense IMU](https://github.com/bolderflight/invensense-imu) library, the [BFS Eigen](https://github.com/bolderflight/eigen/) library and the [BFS Statistics](https://github.com/bolderflight/statistics) library.
 
-## gyro_integration
+### gyro_integration
 This demonstrates integrating gyro data at 1 kHz to estimate attitude. Gyro data works well for estimating attitude in dynamic environments, but drifts over time. The gyro is calibrated during startup. Requires the [BFS Invensense IMU](https://github.com/bolderflight/invensense-imu) library, the [BFS Eigen](https://github.com/bolderflight/eigen/) library, the [BFS Statistics](https://github.com/bolderflight/statistics) library, and the [BFS Units](https://github.com/bolderflight/units) library.
 
 ### mag_cal
